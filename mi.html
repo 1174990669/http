@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>面向对象</title>
+	<style>
+	    body{margin:0;}
+		button{font-size:20px;color:green;position:absolute;top:0;left:10px;}
+		button:nth-of-type(1){left:10px;}
+		button:nth-of-type(2){left:80px;}
+		button:nth-of-type(3){left:150px;}
+		.span2{float:right;}
+		.div1{background:gray;p}
+		.loge{border:1px solid gray;position:absolute;left:0;top:50px;background:white}
+		.col{background:lime;width:100vw;height:100vh;}
+		/*#div1{}*/
+	</style>
+</head>
+<body>
+	
+	<script>
+		window.onload=function(){
+			var aBut=document.getElementsByTagName('button');
+			
+
+			aBut[0].onclick=function(){
+				var fin1 = new  fn();
+				fin1.init({
+					title:'登录',
+					w : 300,
+					h : 200,
+					dir : '',
+				});
+			}
+			aBut[1].onclick=function(){
+				var fin2 = new fn();
+				fin2.init({
+					title:'注册',
+					w : 200,
+					h : 300,
+					dir : 'center',
+				});
+			}
+			aBut[2].onclick=function(){
+				var fin3 = new fn();
+				fin3.init({
+					title:'退出',
+					w : 300,
+					h : 300,
+					dir : 'right',
+					color : true,
+				});
+			}
+		}
+			function fn(){
+				var close=null;
+				this.settings={//默认函数
+					title:'',
+					w : 300,
+					h : 300,
+					color : false,
+					dir : ''
+				}
+			}
+
+			fn.prototype.init=function(opt){//
+				extend( this.settings , opt );
+				this.one();//
+				this.oFF();
+				// this.mone();
+			}
+
+			fn.prototype.one=function(){
+				
+				this.close=document.createElement('div');
+				this.close.className="loge";
+				this.close.innerHTML='<div class="div1"><span class="span1">'+this.settings.title+'</span><span class="span2">点击关闭</span></div>';
+				// this.close.style.background='this.setting.col';
+				document.body.appendChild(this.close);
+
+				this.tw();
+			}
+			fn.prototype.tw=function(){
+				// var This=this;
+				this.close.style.width=this.settings.w+'px';
+				this.close.style.height=this.settings.h+'px';
+				if (this.settings.dir == 'center') {
+				this.close.style.left=(document.documentElement.clientWidth-this.close.offsetWidth)/2+'px';
+				this.close.style.top=(document.documentElement.clientHeight-this.close.offsetHeight)/2+'px';
+				}else if(this.settings.dir == "right"){
+				   this.close.style.left=(document.documentElement.clientWidth-this.close.offsetWidth+'px');
+				   this.close.style.top=(document.documentElement.clientHeight-this.close.offsetHeight+'px');
+				}
+				if(this.settings.color==true){
+					this.color=document.createElement('div');
+					this.color.className="col";
+					document.body.appendChild(this.color);
+				}
+			}
+
+			fn.prototype.oFF=function(){
+				var This=this;
+				var oSpan=this.close.getElementsByTagName('span');
+				// var oSpan=this.color.getElementsByTagName('div');
+				oSpan[1].onclick=function(){
+					document.body.removeChild(This.close);
+					if(This.settings.color==true){
+						document.body.removeChild(This.color);
+					}
+					
+				}
+			}
+			// fn.prototype.move=function(){
+
+			// }
+		
+		function extend(obj1,obj2){
+				for(var attr in obj2){
+					obj1[attr] = obj2[attr];
+				}
+			}
+	</script>
+
+	<button>注册</button>
+	<button>登录</button>
+	<button>退出</button>
+	<!-- <div class="div1">
+		<span class="span1"></span>
+		<span class="span2">点击关闭</span>
+	</div> -->
+</body>
+</html>
