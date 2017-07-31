@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>劲腾汽车</title>
+	<link rel="stylesheet" href="cs/bootstrap.css"><!-- 引用的bootstrap插件 -->
+	<link rel="stylesheet" href="cs/sy.css">
+	<link rel="stylesheet" href="cs/swiper-3.4.2.min.css"><!-- 引用的swiper插件 -->
+	<script src="js/jquery-1.11.1.js"></script><!-- 引用的bootstrap  jquery插件 -->
+	<script src="js/sy.js"></script>
+	<script src="js/bootstrap.js"></script><!-- 引用的bootstrap  js插件 -->
+	<script src="js/swiper-3.4.2.jquery.min.js"></script><!-- 引用的swiper插件
+ -->
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_7omblkmybzvholxr.css">
+</head>
+<body>
+	 <nav class="navbar navbar-default" id="nav-one">
+	  <div class="container-fluid">
+	  	<div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="button1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+				<i class="iconfont icon-qicheyongpin"> <br/><span> 劲腾汽车</span></i>
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right" id="ul1">
+		        <li class="active "><a href="file:///D:/phpStudy/WWW/%E6%B1%BD%E8%BD%A6%E7%BD%91%E7%AB%99/%E6%B1%BD%E8%BD%A6.html">首页 <span class="sr-only">关于我们</span></a></li>
+		        <li><a href="#">关于我们</a></li>
+		        <li><a href="#">服务中心</a></li>
+		        <li><a href="file:///D:/phpStudy/WWW/%E6%B1%BD%E8%BD%A6%E7%BD%91%E7%AB%99/Car%20Center.html">选车中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+		      </ul>
+		    </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<header id="head" class="container-fluid">
+		<!-- <div class="container"> -->
+			<div class="swiper-container" id="sw1">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide" style="background:url(./img/jin.jpg)no-repeat;height:846px;background-size:100% 100%;">
+		            </div>
+		            <div class="swiper-slide" style="background:url(./img/jin2.jpg)no-repeat;height:846px;background-size:100% 100%;">
+		            </div>
+		            <div class="swiper-slide" style="background:url(./img/jin3.jpg)no-repeat;height:846px;background-size:100% 100%;">
+		                <!-- <div class="text" data-swiper-parallax="-300">
+		                    <p> eros quis feugiat.</p>
+		                </div> -->
+		            </div>
+		            <div class="swiper-slide" style="background:url(./img/jin4.jpg)no-repeat;height:846px;background-size:100% 100%;">
+		            </div>
+		            <div class="swiper-slide" style="background:url(./img/jin5.jpg)no-repeat;height:846px;background-size:100% 100%;">
+		            </div>
+		        </div>
+		        <div class="swiper-pagination swiper-pagination-white" ></div>
+		        <div class="swiper-button-prev swiper-button-blue" ></div>
+		        <div class="swiper-button-next swiper-button-red" ></div>
+    			<div class="swiper-scrollbar"></div>
+
+		    <!-- </div> -->
+	    </div>
+	</header>
+	<section id="sec1">
+		<div class="container">
+			<div class="row">
+			<div class=" col-lg-6 col-md-6 col-sm-12">
+				 <div class="swiper-container" id="sw2">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide" >
+							<img src="./img/jx1.jpg" alt="" id="img2" class="img-responsive">
+			            </div>
+			            <div class="swiper-slide" >
+							<img src="./img/jx2.jpg" alt="" id="img2" class="img-responsive">
+			            </div>
+			            <div class="swiper-slide" >
+							<img src="./img/jx3.jpg" alt="" id="img2" class="img-responsive">
+			            </div>
+			        </div>
+			    </div>
+				<!-- <img src="./img/jx1.jpg" alt="" id="img2" class="img-responsive"> -->
+			</div>
+			<div class=" col-lg-6 col-md-6 col-sm-12">
+				<h3 class="sec-h3">关于梅赛德斯奔驰&nbsp;/&nbsp;<span>Mercedes-Benz</span></h3>
+				<p>
+					梅塞德斯－奔驰（Mercedes-Benz，中文简称分别有朋驰、平治、奔驰及宾士），是一家以豪华耐用著称的德国汽车品牌，总部设于德国斯图加特。该品牌目前是戴姆勒集团旗下拥有的多个品牌之一，除了各式乘用车之外，Mercedes-Benz也拥有产品阵线完整的中大型商用车辆。
+				</p>
+				<p>
+					轰动、狂热、里程碑。这一史上首款 BMW 以波澜壮阔的方式向世人展示了如何挑战常规。它展现了无比的勇气、时尚的气息、以及澎湃的动力。借此方式，保时捷彰显了其他汽车制造商在全球石油危机和无车周末时代缺乏的一种品质：坚定不移，沉着冷静。
+				</p>
+				<p>
+					这些稀有之物让我们为之着迷，因为有生之年我们也许无法再次品味它们。因为它们令我们卓尔不群；因为它们向我们表明，不可能的事情并非事实，仅仅是一种选择而已。
+				</p>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="sec2">
+		<div class="container">
+			<h2>新闻资讯 /<span> news and information</span></h2>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 text-align">
+					<div class="div-h">
+						<img src="./img/news.jpg" alt="" class="img-responsive" id="sec-img1">
+						<h5 id="h">梅赛德斯--奔驰文化中心关爱行动</h5><br/>
+					</div>
+					<p>
+						2017年7月4日，梅赛德斯-奔驰文化中心的市场部和活动部的工作人员接待了来自洛杉矶的高中生们参观场馆。这些高中生们都来自美国青少年俱乐部，因为在社团中杰出的表现而被选出参加了本次中国行，而上海梅赛德斯-奔驰文化中心就是本次中国行参观学习的重要一站。
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-12 text-align">
+					<div class="div-h">
+						<img src="./img/news2.jpg" alt="" class="img-responsive">
+						<h5 id="h">梅赛德斯-奔驰与统一企业合作</h5><br/>
+					</div>
+					<p>
+						为庆祝“六一”国际儿童节，梅赛德斯-奔驰文化中心与统一品牌合作, 在6月1日及6月3日，开展关爱行动活动。此次活动邀请了包括向日葵之家，启音学校，启智学校，宝贝之家共4家慈善机构，84位孩子和家长来到场馆观看儿童演出。 
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-12 text-align">
+					<div class="div-h">
+						<img src="./img/news3.jpg" alt="" class="img-responsive">
+						<h5 id="h">梅赛德斯-奔驰获“环保诚信企业”奖</h5><br/>
+					</div>
+					<p>
+						梅赛德斯-奔驰文化中心一直致力于打造绿色环保场馆，将环保概念与场地、建筑和运营三项因素充分的运用到实践当中，成为了全球范围内的经典环保范例。绿色行动作梅赛德斯-奔驰文化中心企业社会责任的重要组成部分，将通过更多基于环境、群体和个人等的互动项目，坚持可持续发展理念。
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="sec3">
+		<div class="container">
+			<h2>产品展示 / Product display</h2>
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<img src="./img/cp.jpg" class='img-responsive' alt="" id="img-hover">
+					<p>
+						<a href="#">
+							独特的运动前端设计，展现出梅赛德斯-奔驰轿跑车标志性的外观特征：2 个强劲拱顶、搭配单格栅条的闪钻散热器格栅，以及延伸至较低位置的前保险杠。
+						</a><br/>
+						<a href="#">
+							比例完美的侧面设计，在省去 B 柱的同时，采用可手动调节高度的侧车窗，使得本车外观明显有别于E级轿车或轿跑车细分市场的同级别车型。
+						</a>
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<img src="./img/cp2.jpg" class='img-responsive' alt="" id="img-hover">
+					<p>
+						<a href="#">
+							全新E级轿跑车的空间感对于一辆轿跑车来说可谓格外宽敞。它完全沿袭了 Gran Turismo 的独特传统，堪称时尚 4 人旅行车的完美之选。<br/>运动、优雅的设计搭配精细、独特的运动细节和精益求精的做工，足以令要求极为苛刻的您无法抗拒。
+						</a>
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<img src="./img/news4.jpg" class='img-responsive' alt="" id="img-hover">
+					<p>
+						<a href="#">
+							新一代GLA SUV前端带有大尺寸散热器格栅和醒目的越野特色，展现出新一代GLA SUV收放自如的无畏身姿。侧面拥有动感流畅的线条，勾勒出紧凑的车身轮廓。这一年轻时尚、动感十足的外观与典型的越野气质相得益彰。采用带有运动风格肩部并且突出宽度的典型SUV尾部设计，给人以强劲、和谐的印象。	
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+		<!-- 选车中心页面 -->
+	<!-- <section id="sect1">
+		<div class="container">
+			<p class="s-p">选车中心&nbsp;>&nbsp;<span>&nbsp;车型预览</span></p>
+			<mark>轿车</mark>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./img/x1.jpg" alt="图片开小差啦" class="jpg">
+					<p>长轴距C级轿车</p>
+					<div class="sec-div clo-md-6">
+						<dl>
+							<dt>设计</dt>
+							<dd>
+								长轴距C级轿车拥有别具吸引力的轿车外观组件，动感、充满激情并且魅力十足。<br/>这款出色的高档中型车采用灵动的设计，可带来非凡的驾驶享受。
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x2.jpg" alt="图片开小差啦" class="jpg">
+					<p>S级轿车</p>
+					<div class="sec-div clo-md-6" >
+						<dl>
+							<dt>设计</dt>
+							<dd>
+								长轴距C级轿车拥有别具吸引力的轿车外观组件，动感、充满激情并且魅力十足。<br/>这款出色的高档中型车采用灵动的设计，可带来非凡的驾驶享受。
+							</dd>
+						</dl>
+					</div>
+					<div class="sec-div"></div>
+	
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x3.jpg" alt="图片开小差啦" class="jpg">
+					<p>长轴距E级轿车</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x4.jpg" alt="图片开小差啦" class="jpg">
+					<p>迈巴赫S级轿车</p>
+					<div class="sec-div"></div>
+				</div>
+			</div>
+			<mark>SUV</mark>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./img/x5.jpg" alt="图片开小差啦" class="jpg">
+					<p>GLC SUV</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x6.jpg" alt="图片开小差啦" class="jpg">
+					<p>GLE SUV</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x7.jpg" alt="图片开小差啦" class="jpg">
+					<p>GLS SUV</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x8.jpg" alt="图片开小差啦" class="jpg">
+					<p>G级越野车</p>
+					<div class="sec-div"></div>
+				</div>
+			</div>
+			<mark>跑车系列</mark>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./img/x9.jpg" alt="图片开小差啦" class="jpg">
+					<p>C级轿跑车</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x10.jpg" alt="图片开小差啦" class="jpg">
+					<p>S级轿跑车</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x11.jpg" alt="图片开小差啦" class="jpg">
+					<p>SL敞篷跑车</p>
+					<div class="sec-div"></div>
+				</div>
+				<div class="col-md-6">
+					<img src="./img/x12.jpg" alt="图片开小差啦" class="jpg">
+					<p>SLC敞篷跑车</p>
+					<div class="sec-div"></div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<!-- 联系我们页面 -->
+	<section id="sect2">
+		<div class="container">
+			<div class="row">
+				<p class="s-p2">联系我们</p>
+				<div class="col-md-12" >
+					<img src="./img/lian.jpg" alt="">
+					<div class="d" style="background: rgba();">
+					<p class="s-p3">请与我们的大客户经理联系</p>
+					<p class="s-p4">
+						梅赛德斯-奔驰不仅产品质量出众，更十分注重向企业客户提供优质的服务。无论您何时与我们联系，我们的大客户经理<br/>都会尽心尽力就贵公司汽车购买、拥有、保养和车贷等方面的问题，为您提供专业的咨询服务
+						<span>————————选择梅赛德斯-奔驰，尽情享受专业、可靠的服务。</span>
+					</p>
+					<p class="p-tr">大客户业务负责人:</p>
+					<table border="1">
+						<tr>
+							<th class="th">姓名</th>
+							<th class="th">联系方式</th>
+						</tr>
+						<tr>
+							<td>杨小姐</td>
+							<td>chao.yang@163qq.com </td>
+						</tr>
+					</table>
+					<p class="p-tr">区域大客户业务支持</p>
+					<table border='1'>
+						<tr>
+							<th class="th">区域</th>
+							<th class="th">姓名</th>
+							<th class="th">联系方式</th>
+						</tr>
+						<tr>
+							<td>北区及西北地区</td>
+							<td>杨小姐</td>
+							<td>chao.yang@163qq.com</td>
+						</tr>
+						<tr>
+							<td>东区</td>
+							<td>连雨</td>
+							<td>chao.yang@163qq.com</td>
+						</tr>
+						<tr>
+							<td>南区及西南地区</td>
+							<td>杨先生</td>
+							<td>chao.yang@163qq.com</td>
+						</tr>
+					</table>
+					<p class="p-tr">重点行业大客户业务：</p>
+					<table border="1">
+						<tr>
+							<th class="th">租赁</th>
+							<th class="th">张硕</th>
+							<th class="th">chao.yang@163qq.com</th>
+						</tr>
+						<tr>
+							<td>酒店</td>
+							<td>赵璇</td>
+							<td>chao.yang@163qq.com</td>
+						</tr>
+						<tr>
+							<td>酒店</td>
+							<td>赵小姐</td>
+							<td>chao.yang@163qq.com</td>
+						</tr>
+					</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- //第页面 关于我们 h4-->
+	<!-- <div id="section" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>劲腾汽车销售服务有限公司介绍</h4>
+					<p>
+						公司店址位于芝罘区幸福北路72号，隶属于全国知名汽车集团上海宝信汽车集团。展厅面积1.2万平方，延续了BMW一贯简约而不失尊贵的展厅内部风格。内部区域合理划分为新车展示区、BMW Lifestyle用品陈列区、接待区、VIP休息区、客户娱乐区、维修区。其中新车展区可同时摆放16台BMW产品，二手车展区可摆放8台车辆，方便客户进行二手车评估置换。在这里，客户不仅可以在优雅的环境中欣赏选购BMW产品，更能让专业的服务顾问和技师悉心呵护自己的爱车
+					</p>
+				</div>
+				<div class="col-md-6">
+					
+				</div>
+				<div class="col-md-6"></div>
+			</div>
+		</div>
+	</div> -->
+
+	<footer> <!-- 页面底部 -->
+		<div class="container-fluid">
+			<div class="container">
+				<!-- <dl>
+					<dt>了解我们</dt>
+					<dd>企业社会责任</dd>
+					<dd>创始合作伙伴</dd>
+					<dd>关于我们</dd>
+					<dt>文化生活</dt>
+					<dd>美食天地</dd>
+					<dd>世博国际影城</dd>
+					<dd>全明星滑冰俱乐部</dd>
+				</dl>
+				<dl>
+					<dt>新闻资讯</dt>
+					<dd>企业社会责任</dd>
+					<dd>创始合作伙伴</dd>
+					<dd>关于我们</dd>
+				</dl> -->
+				<ul>标题1
+					<li><a href="#">了解我们</a></li>
+					<li><a href="#">新闻资讯</a></li>
+					<li><a href="#">产品展示</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">文化生活</a></li>
+				</ul>
+				<ul>标题2
+					<li><a href="#">了解我们</a></li>
+					<li><a href="#">新闻资讯</a></li>
+					<li><a href="#">产品展示</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">文化生活</a></li>
+				</ul>
+				<ul>标题3
+					<li><a href="#">了解我们</a></li>
+					<li><a href="#">新闻资讯</a></li>
+					<li><a href="#">产品展示</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">文化生活</a></li>
+				</ul>
+				<ul>标题4
+					<li><a href="#">了解我们</a></li>
+					<li><a href="#">新闻资讯</a></li>
+					<li><a href="#">产品展示</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">文化生活</a></li>
+				</ul>
+				<ul>标题5
+					<li><a href="#">了解我们</a></li>
+					<li><a href="#">新闻资讯</a></li>
+					<li><a href="#">产品展示</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">文化生活</a></li>
+				</ul>
+				<ul class="ul-img">
+					<img src="./img/s.jpg" alt="">						
+					<li>微信平台</li>
+				</ul>
+				<ul class="ul-img">
+					<img src="./img/s.jpg" alt="">						
+					<li>官网二维码</li>
+				</ul>
+				<!-- <div id=""></div> -->
+			</div>
+		</div>
+	</footer>
+		
+	<script>
+	    var swiper1 = new Swiper('#sw1', {
+	    	// pagination: '.swiper-pagination',
+	        pagination: '.swiper-pagination',
+	        scrollbar: '.swiper-scrollbar',
+	        paginationClickable: true,
+	        nextButton: '.swiper-button-next',
+	        prevButton: '.swiper-button-prev',
+	        parallax: true,
+	        speed: 600,
+	        loop:true,
+	        autoplay:1500,
+	    });
+
+	    var swiper2 = new Swiper('#sw2', {
+        effect: 'cube',
+	    // scrollbar: '.swiper-scrollbar',
+        loop:true,
+        autoplay:2000,
+        speed:800,
+        cube: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+        	}
+    	});
+    </script>
+</body>
+</html>
